@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Thomapp'
-description 'Vehicle Location Script.'
+description 'Vehicle Rental Script.'
 
 client_scripts {
     'src/RageUI.lua',
@@ -15,4 +15,8 @@ client_scripts {
 }
 
 server_script 'server/sv_main.lua'
-shared_script 'shared.lua'
+shared_scripts { '@es_extended/imports.lua', 'shared.lua' }
+
+dependencies {
+    'es_extended'
+}

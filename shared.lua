@@ -7,7 +7,6 @@ Config = {
 
     Blip = {
         sprite = 280,
-        display = 4,
         scale = 1.0,
         color = 69
     },
@@ -27,9 +26,8 @@ Config = {
             },
 
             Vehicles = {
-                { label = "Blista", model = "blista", price = 100 },
-                { label = "Sultan", model = "sultan", price = 200 },
-                { label = "Oppressor Mk2", model = "oppressor2", price = 1000 }
+                { label = "Blista", model = "blista", price = 150 },
+                { label = "Sultan", model = "sultan", price = 350 },
             }
         },
 
